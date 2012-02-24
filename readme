@@ -1,0 +1,10 @@
+Basically, this program follows just the requirement. It can solve the heat diffusion equation in 3 dimensions. First, it is set up on an arbitrary Cartesian domain. And dx != dy != dz. 
+2. It implements the following two methods of solving the system: 
+- Forward-Time Central-Space 
+- Crank-Nicolson Method (20 pts) 
+3. My code must have the following features built in: 
+- A function that sets the initial condition (Gaussian+noise) 
+- Ability to specify the following boundary conditions. 
+- Dirichlet (constant) conditions 
+- An arbitrary time-independent "source term" added to the right hand side of the equation 
+(ie specified S(i,j,k), where S is given)
