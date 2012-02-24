@@ -1,5 +1,6 @@
 function FDCS_pluse_CrankNicolson_3d(nx)
 %%
+% I made a modification for the first time.
 % 1. this program solve the heat diffusion equation in 3 dimensions. First, it is set up on an
 % arbitrary Cartesian domain. And dx != dy != dz. 
 % 2. It implements the following two methods of solving the system:
